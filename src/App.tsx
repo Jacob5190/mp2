@@ -326,7 +326,7 @@ function GalleryFilters({
   onChange: (v: string[]) => void;
 }) {
   const [types, setTypes] = useState<string[]>([]);
-  const [error, setError] = useState<string>("");
+  const [, setError] = useState<string>("");
 
   useEffect(() => {
     (async () => {
@@ -513,7 +513,7 @@ function DetailView() {
   const pid = Number(id);
   const { items } = useResults();
   const [data, setData] = useState<PokemonDetail | null>(null);
-  const [error, setError] = useState("");
+  const [, setError] = useState("");
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
 
@@ -626,7 +626,6 @@ function Shell({ children }: { children: React.ReactNode }) {
       <footer className={styles.appFooter}>
         <div className={styles.footerInner}>
           Data from{" "}
-          // App.tsx
           <a
             href="https://pokeapi.co/"
             target="_blank"
