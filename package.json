@@ -2,7 +2,7 @@
   "name": "mp2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Jacob5190.github.io/mp2",
+  "homepage": "https://jacob5190.github.io/mp2",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
