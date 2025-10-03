@@ -326,7 +326,7 @@ function GalleryFilters({
   onChange: (v: string[]) => void;
 }) {
   const [types, setTypes] = useState<string[]>([]);
-  const [, setError] = useState<string>("");
+  const [error, setError] = useState<string>("");
 
   useEffect(() => {
     (async () => {
